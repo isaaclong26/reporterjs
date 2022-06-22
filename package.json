@@ -1,0 +1,23 @@
+{
+  "name": "reporter.ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd server && npm start\" \" cd reporter && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaaclong26/reporter.git"
+  },
+  "author": "Isaac Long",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaaclong26/reporter/issues"
+  },
+  "homepage": "https://github.com/isaaclong26/reporter#readme",
+  "dependencies": {
+    "concurrently": "^7.2.0"
+  }
+}
